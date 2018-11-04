@@ -1,0 +1,412 @@
+/*Navigation Bar*/
+
+.x-navbar{
+ border-bottom: 0px;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: background-color 0.5s ease;
+  overflow:auto;
+padding-left: 2%;
+  }
+/*
+.darknavbar {background-color: rgb(255,255,255,0.0) !important;}
+.clearnavbar {background-color: white !important;}
+.black {color: black !important;}
+*/
+.x-navbar a {
+    float: left;
+display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 100%;
+  font-family: MisoBold, Arial, Times New Roman;
+}
+
+.x-navbar a:hover {
+  color: rgb(0,191,255);
+  transition: color 0.5s ease;
+}
+.header-r{
+  overflow: hidden;
+  float: right;
+  padding-right: 380px;
+}
+
+.header-r .icon {
+    display: none;
+}
+  #logo{
+  float: left;
+  padding-top: 2px;
+  padding-left: 250px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+a.svg {
+  position: relative;
+  display: inline-block;
+
+}
+*/
+/*Fix background*/
+.fixed-bg {
+    /* The background image */
+    background-image: url("1.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 770px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+.imgtxt{
+  color: white;
+   position: fixed;
+  margin-top: 300px;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+/*text */
+.overview {
+  position: relative;
+  background-color: #fff;
+  z-index: 999;
+  overflow:auto;
+  padding-bottom: 100px;
+}
+
+#rs{
+  text-align: center;
+}
+
+#rsengg{
+ margin-top:40px;
+  font-size: 30px;
+  line-height: 39.834px;
+  color: rgb(0,191,255);
+}
+#p1{
+  margin-top: 10px;
+  font-size: 17px !important;
+  color: #747474;
+  /*
+   background-color: rgb(0,191,255,0.1);
+  box-sizing: border-box;
+  width: 51%;
+  margin-left: 270px;
+  */
+}
+
+hr {
+  border-width: 2px;
+  border-color: rgb(0,191,255,0.5);
+}
+
+#aboutushome{
+	float:left;
+
+	 font-size: 15px;
+	 color: rgb(116, 116, 116);
+	margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+.bar_s{
+  width: 0px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+  padding: 0px 480px 0px 0px;
+}
+.skill_bar {
+  width:480px;
+  height:55px;
+  background: rgb(192,192,192,0.2);
+  margin-bottom:10px;
+  text-align: center;
+}
+.skill_bar_progress {
+  width:0%;
+  height:100%;
+  background: rgb(0,191,255,0.5);
+}
+
+/*footer*/
+.footer{
+	position: relative;
+  background-color: white;
+  overflow:auto;
+  z-index: 999;
+}
+
+#contact-footer{
+  margin: 0px 185px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: black;
+  float: right;
+
+}
+#navigate-footer{
+margin: 0px 0px 0px 250px;
+padding: 0px 0px 0px 0px;
+color: black;
+float: left;
+
+}
+
+#navigate-footer li{
+	padding-top: 5px;
+}
+
+.uldotremove {
+  list-style-type: none;
+  padding: 0px
+}
+
+/* aboutus img */
+.aboutusimg{
+  overflow: hidden;
+  margin-top: -1%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.aboutusimg img{
+  width: 100%;
+  display:block;
+  margin-top: -23.874%;
+  margin-bottom: -31.875%;
+}
+
+.ustxt{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 260%;
+font-family: sans-serif;
+}
+
+.textus{
+ color: rgb(232, 232, 232);
+ font-family: sans-serif;
+ font-size: 15px;
+ color: rgb(116, 116, 116);
+ margin-top: 30px;
+}
+
+.ab{
+  box-sizing: border-box;
+  float: right;
+  margin-right: -520px;
+  margin-top: -360px;
+  display:block;
+  overflow: hidden;
+}
+
+.porimg{
+  overflow: hidden;
+  margin-top: -1%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.porimg img{
+  width: 100%;
+  display:block;
+  margin-top: -20.174%;
+  margin-bottom: -21.875%;
+}
+
+
+
+/*padding: 0px 0px 360px 0px;
+*/
+
+
+/*PRODUCTS*/
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+  }
+
+.dish-box {
+     margin: 30px 200px 0px 200px;
+     padding: 0px 0px 300px 0px;
+
+   }
+.tx {
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.im{
+float: right;
+margin-top: 50px;
+padding: 0px 0px 0px 0px;
+}
+
+.dishp{
+margin-bottom: 70px;
+}
+/*end of product*/
+
+
+
+/* slide img*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile view*/
+
+@media screen and (max-width: 425px) {
+
+.bo{
+  margin-top: 60px;
+}
+
+#logo{
+  float: left;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 30px;
+}
+
+.header-r{
+float: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.header-r a:not(:first-child) {
+  display: none;
+}
+
+.header-r a.icon {
+  float: right;
+  display: block;
+}
+
+.header-r.responsive {
+  position: relative;
+}
+
+.header-r.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header-r.responsive a {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+#contact-footer{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: black;
+  float: right;
+
+}
+#navigate-footer{
+margin: 0px 0px 0px 10px;
+padding: 0px 0px 0px 0px;
+color: black;
+float: left;
+
+}
+
+#navigate-footer li{
+	padding-top: 5px;
+}
+
+#aboutushome{
+	 font-size: 15px;
+	 color: rgb(116, 116, 116);
+	margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+.bar_s{
+  width: 100%;
+  float: left;
+	margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.skill_bar {
+  width:380px;
+  height:55px;
+  background: rgb(192,192,192,0.2);
+  margin-bottom:10px;
+  text-align: center;
+}
+.skill_bar_progress {
+  width:0%;
+  height:100%;
+  background: rgb(0,191,255,0.5);
+}
+
+.ab{
+  display: none;
+}
+
+.dishp{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.dish-box{
+  margin: 30px 0px 0px 0px;
+  padding: 0px 0px 480px 0px;
+  animation-name: fadeInLeft;
+}
+
+.im{
+margin-top: 10px;
+margin-right: 10px;
+padding: 0px 0px 0px 0px;
+}
+
+
+}
