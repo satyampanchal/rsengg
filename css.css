@@ -70,7 +70,7 @@ a.svg {
 /*Fix background*/
 .fixed-bg {
     /* The background image */
-    background-image: url("1.JPG");
+    background-image: url("1.jpg");
     /* Set a specified height, or the minimum height for the background image */
     min-height: 770px;
     /* Set background image to fixed (don't scroll along with the page) */
