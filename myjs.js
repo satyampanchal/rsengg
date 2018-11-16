@@ -37,6 +37,16 @@ function myFunction() {
 
 
 /*End Navigation Bar*/
+
+(function($){
+  "use strict";
+
+	// Preloader Js
+	jQuery(window).on('load', function() {
+		jQuery("#status").fadeOut();
+		jQuery("#preloader").delay(200).fadeOut("slow");
+	});
+})();
 jQuery(function() {
     var header = jQuery(".skill_one");
     jQuery(window).scroll(function() {
@@ -84,15 +94,3 @@ jQuery(function() {
 }
     });
 });
-
-
-
-(function($){
-  "use strict";
-
-	// Preloader Js
-	jQuery(window).on('load', function() {
-		jQuery("#status").fadeOut();
-		jQuery("#preloader").delay(200).fadeOut("slow");
-	});
-})();
