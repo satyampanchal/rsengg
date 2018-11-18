@@ -299,7 +299,7 @@ list-style: none;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 6em; /* Also needed for space (tweak if needed) */
+  margin-left: 5em; /* Also needed for space (tweak if needed) */
 	margin-top: 1em;
 
 }
