@@ -361,19 +361,29 @@ margin-bottom: 70px;
 
 
 
-/* slide img*/
+/* contact us */
+.cus{
+  overflow: hidden;
+  margin-top: -1%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.cus img{
+  width: 100%;
+  display:block;
+  margin-top: -5.874%;
+  margin-bottom: -5.875%;
+}
 
-
-
-
-
-
-
-
-
-
-
+.ccolumn {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+	width: 50%;
+	font-family: sans-serif;
+}
 
 
 
