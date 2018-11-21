@@ -1,11 +1,4 @@
 /*---------- Preloader Css Start -------*/
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
-
 .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
