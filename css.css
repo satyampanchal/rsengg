@@ -6,6 +6,13 @@
   -o-transition: none !important;
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
+
 #preloader {
 	background-color: #fcfefc;
 	bottom: 0;
