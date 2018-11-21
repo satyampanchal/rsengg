@@ -1,3 +1,10 @@
+
+/*preload animtion*/
+$(window).load(function() {
+  $("body").removeClass("preload");
+});
+
+
 /*Navigation Bar*/
 /*
 jQuery(function() {

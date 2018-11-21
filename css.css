@@ -1,4 +1,11 @@
 /*---------- Preloader Css Start -------*/
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 #preloader {
 	background-color: #fcfefc;
 	bottom: 0;
