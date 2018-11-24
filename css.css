@@ -423,6 +423,23 @@ input[type=submit]:hover {
 
 }
 
+.hporimg{
+  overflow: hidden;
+  margin-top: -1%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hporimg img{
+
+  display:block;
+  width: 100%;
+  margin-top: -26.174%;
+  margin-bottom: -21.875%;
+  transform: rotate(90deg);
+}
+
 
 
 /*mobile view*/
@@ -564,5 +581,22 @@ margin-right: 10px;
 padding: 0px 0px 0px 0px;
 }
 
+
+.hporimg{
+  overflow: hidden;
+  margin-top: -1%;
+  text-align: center;
+  font-size: 30%;
+  color: white;
+}
+
+.hporimg img{
+
+  display:block;
+  width: 100%;
+  margin-top: -16.174%;
+  margin-bottom: -9.875%;
+  transform: rotate(90deg);
+}
 
 }
