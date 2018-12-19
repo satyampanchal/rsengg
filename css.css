@@ -458,7 +458,7 @@ input[type=submit]:hover {
 
 /*mobile view*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 765px) {
 
 	.fcolumn{
 		width: 60%;
