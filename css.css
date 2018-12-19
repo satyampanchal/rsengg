@@ -119,13 +119,7 @@ a.svg {
     background-repeat: no-repeat;
     /* Scale the background image to be as large as possible */
     background-size: cover;
-}
-.imgtxt{
-  color: white;
-   position: fixed;
-  margin-top: 300px;
-  margin-left: 100px;
-  z-index: 1;
+
 }
 
 /*text */
@@ -425,20 +419,41 @@ input[type=submit]:hover {
 }
 
 .hporimg{
-  overflow: hidden;
+  background-image: url("image/wel.jpg");
+  background-size:  100% 250%;
+  background-repeat: no-repeat;
+  background-position:  center;
+  color: #fff;
   margin-top: -1%;
-  position: relative;
-  text-align: center;
-  color: white;
+  z-index: 1000;
 }
 
-.hporimg img{
+.hpcolumn {
+	margin-top: 5%;
+	margin-bottom: 5%;
+  margin-left: 5%;
+	width: 40%;
+	font-family: sans-serif;
+}
 
-  display:block;
-  width: 100%;
-  margin-top: -26.174%;
-  margin-bottom: -21.875%;
-  transform: rotate(90deg);
+.buttonh {
+
+    border: 2px solid #639fff;
+    color: white;
+    padding: 10px 54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		margin-top: 3%;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+
+}
+
+.buttonh:hover {
+    background-color: #639fff;
+    color: white;
 }
 
 
@@ -597,7 +612,6 @@ padding: 0px 0px 0px 0px;
   width: 100%;
   margin-top: -16.174%;
   margin-bottom: -9.875%;
-  transform: rotate(90deg);
 }
 
 .ccolumn {
