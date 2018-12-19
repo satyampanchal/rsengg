@@ -392,6 +392,7 @@ margin-bottom: 70px;
 	font-family: sans-serif;
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 80%; /* Full width */
@@ -597,6 +598,13 @@ padding: 0px 0px 0px 0px;
   margin-top: -16.174%;
   margin-bottom: -9.875%;
   transform: rotate(90deg);
+}
+.ccolumn {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+	width: 100%;
+	font-family: sans-serif;
 }
 
 }
