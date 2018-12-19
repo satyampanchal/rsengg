@@ -599,12 +599,19 @@ padding: 0px 0px 0px 0px;
   margin-bottom: -9.875%;
   transform: rotate(90deg);
 }
+
 .ccolumn {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	float: left;
 	width: 100%;
 	font-family: sans-serif;
+}
+.cus img{
+  width: 100%;
+  display:block;
+  margin-top: -1.874%;
+  margin-bottom: -1.875%;
 }
 
 }
