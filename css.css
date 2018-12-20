@@ -597,19 +597,35 @@ padding: 0px 0px 0px 0px;
 
 
 .hporimg{
-  overflow: hidden;
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
   margin-top: -1%;
-  text-align: center;
-  font-size: 30%;
-  color: white;
 }
 
-.hporimg img{
+.hpcolumn {
+	margin-top: 5%;
+	margin-bottom: 5%;
+  margin-left: 5%;
+	width: 90%;
+	font-family: sans-serif;
+  font-size: 70%;
+}
 
-  display:block;
-  width: 100%;
-  margin-top: -16.174%;
-  margin-bottom: -9.875%;
+.buttonh {
+
+    border: 2px solid #639fff;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		margin-top: 3%;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+
 }
 
 .ccolumn {
