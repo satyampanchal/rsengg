@@ -175,7 +175,7 @@ hr {
   height:55px;
   background-color: rgb(192,192,192,0.2);
   margin-bottom:10px;
-  text-align: center;
+
 }
 .skill_bar_progress {
   width:0%;
@@ -564,7 +564,11 @@ float: none;
   height:55px;
   background: rgb(192,192,192,0.2);
   margin-bottom:10px;
-  text-align: center;
+}
+
+.skill_bar h3 {
+padding: 5px 0px 0px 0px !important;
+font-size: 130% !important;
 }
 .skill_bar_progress {
   width:0%;
