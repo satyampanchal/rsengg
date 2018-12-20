@@ -163,7 +163,6 @@ hr {
 	 color: rgb(116, 116, 116);
 	margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-
 }
 .bar_s{
   width: 0px;
@@ -174,14 +173,14 @@ hr {
 .skill_bar {
   width:480px;
   height:55px;
-  background: rgb(192,192,192,0.2);
+  background-color: rgb(192,192,192,0.2);
   margin-bottom:10px;
   text-align: center;
 }
 .skill_bar_progress {
   width:0%;
   height:100%;
-  background: rgb(0,191,255,0.5);
+  background-color: rgb(0,191,255,0.5);
 }
 
 /*footer*/
