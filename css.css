@@ -485,6 +485,10 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 765px) {
 
+  .cslider{
+    border-radius: 0px !important;
+  }
+
 	.fcolumn{
 		width: 60%;
 		height: 20%;
