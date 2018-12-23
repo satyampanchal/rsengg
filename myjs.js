@@ -132,7 +132,9 @@ $('.dishendslider').slick({
         dots: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        autoplay: true,
+        mobileFirst:true,
+        arrows: false
 
 
       }
@@ -165,6 +167,8 @@ $('.clientslider').slick({
         dots: false,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        mobileFirst:true,
         arrows: false
       }
     }
