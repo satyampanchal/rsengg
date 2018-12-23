@@ -100,15 +100,6 @@ jQuery(function() {
     });
 });
 
-(function($){
-  "use strict";
-
-	// Preloader Js
-	jQuery(window).on('load', function() {
-		jQuery("#status").fadeOut();
-		jQuery("#preloader").delay(200).fadeOut("slow");
-	});
-})();
 
 
 //dishendslider
@@ -161,28 +152,20 @@ $('.clientslider').slick({
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        arrows: false
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 411,
       settings: {
         dots: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: false
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -190,3 +173,10 @@ $('.clientslider').slick({
     // instead of a settings object
   ]
 });
+
+    jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+         if (scroll >= 870) {
+        $('.dslider').addClass("animated fadeInLeft");
+        }
+      });
