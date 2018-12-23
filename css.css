@@ -186,7 +186,7 @@ hr {
 /*dishendslider*/
 .slider {
         width: 100%;
-        margin: 50px auto;
+        margin: 90px auto;
     }
 
     .slick-slide {
@@ -200,6 +200,10 @@ hr {
 .slick-next:before {
   color: black;
     }
+
+.dishendslider h4{
+  color: rgb(116, 116, 116);
+}
 
 /*footer*/
 .footer{
