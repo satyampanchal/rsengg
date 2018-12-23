@@ -125,7 +125,7 @@ $('.dishendslider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true,
+        dots: true
       }
     },
     {
@@ -141,6 +141,8 @@ $('.dishendslider').slick({
         dots: false,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
+
 
       }
     }
