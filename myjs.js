@@ -109,3 +109,13 @@ jQuery(function() {
 		jQuery("#preloader").delay(200).fadeOut("slow");
 	});
 })();
+
+
+//dishendslider
+$('.dishendslider').slick({
+  dots: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
