@@ -160,7 +160,7 @@ $('.clientslider').slick({
       }
     },
     {
-      breakpoint: 411,
+      breakpoint: 481,
       settings: {
         dots: false,
         slidesToShow: 1,
