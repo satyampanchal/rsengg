@@ -484,7 +484,7 @@ input[type=submit]:hover {
 
 /*mobile view*/
 
-@media screen and (max-width: 765px) {
+@media all and (max-width: 800px) {
 
   .cslider{
     border-radius: 0px !important;
