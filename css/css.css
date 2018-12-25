@@ -108,7 +108,7 @@ a.svg {
 /*Fix background*/
 .fixed-bg {
     /* The background image */
-    background-image: url("image/home/1.jpg");
+    background-image: url("../image/home/1.jpg");
     /* Set a specified height, or the minimum height for the background image */
     min-height: 470px;
     /* Center the background image */
@@ -443,7 +443,7 @@ input[type=submit]:hover {
 }
 
 .hporimg{
-  background-image: url("image/home/wel.jpg");
+  background-image: url("../image/home/wel.jpg");
   background-size:  100% 250%;
   background-repeat: no-repeat;
   background-position:  center;
