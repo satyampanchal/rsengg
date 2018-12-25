@@ -131,6 +131,7 @@ a.svg {
   z-index: 999;
   overflow:auto;
   padding-bottom: 50px;
+
 }
 
 #rs{
@@ -189,7 +190,7 @@ hr {
 
 /*dishendslider*/
 .slider {
-        width: 100%;
+        width: 95%;
         margin: 90px auto;
     }
     .slider1 {
@@ -209,9 +210,23 @@ hr {
   color: black;
     }
 
-
+.dslider{
+  margin-top: 8%;
+  -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
+}
 .dishendslider h4{
   color: rgb(116, 116, 116);
+}
+
+.cslider{
+  background-image: linear-gradient(161deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  margin-top: 8%;
+  margin-bottom: 8%;
+  -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
 }
 
 /*footer*/
@@ -448,13 +463,12 @@ input[type=submit]:hover {
 
 .hporimg{
   background-image: url("../image/home/wel.jpg");
-  background-size:  100% 250%;
+  background-size:  100% 200%;
   background-repeat: no-repeat;
   background-position:  center;
   color: #fff;
-  margin-top: -1%;
+  margin-top: 5%;
   z-index: 1000;
-
   -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
@@ -466,6 +480,7 @@ input[type=submit]:hover {
   margin-left: 5%;
 	width: 50%;
 	font-family: sans-serif;
+
 }
 
 .buttonh {
