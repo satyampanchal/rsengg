@@ -673,4 +673,12 @@ padding: 0px 0px 0px 0px;
   margin-bottom: -1.875%;
 }
 
+.dslider {
+  animation: none !important;
+}
+
+.cslider{
+  animation: none !important;
+}
+
 }
