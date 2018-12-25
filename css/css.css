@@ -212,8 +212,8 @@ hr {
 
 .dslider{
   margin-top: 8%;
-  -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
-  -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
+  -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
 }
 .dishendslider h4{
@@ -224,8 +224,8 @@ hr {
   background-image: linear-gradient(161deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   margin-top: 8%;
   margin-bottom: 8%;
-  -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
-  -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
+  -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
+  -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
 }
 
@@ -509,9 +509,6 @@ input[type=submit]:hover {
 
 @media all and (max-width: 800px) {
 
-  .cslider{
-    border-radius: 0px !important;
-  }
 
 	.fcolumn{
 		width: 60%;
@@ -698,10 +695,14 @@ padding: 0px 0px 0px 0px;
 
 .dslider {
   animation: none !important;
+  margin-top: 24%;
 }
 
 .cslider{
   animation: none !important;
+  margin-top: 24%;
+  margin-bottom: 15%;
+
 }
 
 }
