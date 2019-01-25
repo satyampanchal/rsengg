@@ -111,7 +111,7 @@ a.svg {
 }
 */
 /*Fix background*/
-.parallax {
+.homeb {
     /* The background image */
     background-image: url("../image/home/1.jpg");
     /* Set a specified height, or the minimum height for the background image */
@@ -271,19 +271,37 @@ color: black;
 
 /* aboutus img */
 .aboutusimg{
-  overflow: hidden;
-  margin-top: -1%;
-  position: relative;
-  text-align: center;
-  color: white;
+  /* The background image */
+  background-image: url("../image/aboutus/2.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  height: 500px;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+.hbtxt{
+  background: #ffffff;
+      color: #000;
+      text-transform: uppercase;
+      top:50%;
+      left: 7%;
+      padding: 10px;
+      box-shadow: 0px 0px 0px 0px #ffffff;
+      mix-blend-mode: lighten;
+      line-height: 1;
+      position: relative;
+      display: inline-block;
+      font-size: 26px !important;
+      font-family: IBM Plex Sans bold, sans-serif;
+      font-weight: 700;
+
 }
 
-.aboutusimg img{
-  width: 100%;
-  display:block;
-  margin-top: -23.874%;
-  margin-bottom: -31.875%;
-}
 
 .ustxt{
   background: #ffffff;
@@ -474,12 +492,15 @@ input[type=submit]:hover {
 
 .hporimg{
   background-image: url("../image/home/wel.jpg");
-  background-size:  100% 200%;
+  height: 400px;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
   background-repeat: no-repeat;
-  background-position:  center;
+  /* Scale the background image to be as large as possible */
+  background-size:  100% 125%;
+  background-attachment: fixed;
   color: #fff;
-  margin-top: 3%;
-  z-index: 1000;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
