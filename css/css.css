@@ -1,3 +1,4 @@
+
 /*---------- Preloader Css Start -------*/
 .js-loading *,
 .js-loading *:before,
@@ -42,7 +43,7 @@
  border-bottom: 0px;
   background-color: white;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   top: 0;
   width: 100%;
@@ -110,18 +111,18 @@ a.svg {
 }
 */
 /*Fix background*/
-.fixed-bg {
+.parallax {
     /* The background image */
     background-image: url("../image/home/1.jpg");
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 470px;
+    height: 500px;
     /* Center the background image */
     background-position: center;
     /* Set the background image to no repeat */
     background-repeat: no-repeat;
     /* Scale the background image to be as large as possible */
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 /*text */
@@ -285,12 +286,21 @@ color: black;
 }
 
 .ustxt{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 260%;
-font-family: sans-serif;
+  background: #ffffff;
+      color: #000;
+      text-transform: uppercase;
+      top:50%;
+      left: 37%;
+      padding: 18px;
+      box-shadow: 0px 0px 0px 0px #ffffff;
+      mix-blend-mode: lighten;
+      line-height: 1;
+      position: relative;
+      display: inline;
+      font-size: 56px !important;
+      font-family: IBM Plex Sans bold, sans-serif;
+      font-weight: 700;
+
 }
 
 .textus{
@@ -311,18 +321,19 @@ font-family: sans-serif;
 }
 
 .porimg{
-  overflow: hidden;
-  margin-top: -1%;
-  position: relative;
-  text-align: center;
-  color: white;
-}
+  /* The background image */
+  background-image: url("../image/product/7.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  height: 500px;
+  /* Center the background image */
+  background-position:  center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
 
-.porimg img{
-  width: 100%;
-  display:block;
-  margin-top: -20.174%;
-  margin-bottom: -21.875%;
+  background-attachment: fixed;
+
 }
 
 
