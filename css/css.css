@@ -519,7 +519,7 @@ input[type=submit]:hover {
   background: #ffffff;
       color: #000;
       text-transform: uppercase;
-      padding: 0px;
+      padding: 4px;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
       line-height: 1;
@@ -550,7 +550,21 @@ input[type=submit]:hover {
     color: white;
 }
 
-
+.ctag{
+  background: #ffffff;
+      color: #000;
+      text-transform: uppercase;
+      padding: 2px;
+      left: 36%;
+      box-shadow: 0px 0px 0px 0px #ffffff;
+      mix-blend-mode: lighten;
+      line-height: 1;
+      position: relative;
+      display: inline-block;
+      font-size: 35px !important;
+      font-family: IBM Plex Sans bold, sans-serif;
+      font-weight: 700;
+}
 
 /*mobile view*/
 
