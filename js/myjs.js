@@ -40,6 +40,12 @@ jQuery(function() {
     });
 });
 */
+
+$(window).scroll(function(){
+    $(".fadet").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+
 function myFunction() {
     var x = document.getElementById("nheader-r");
     if (x.className === "header-r") {
