@@ -145,6 +145,7 @@ hr {
 .acolumn {
   padding-left: 5%;
 	width: 50%;
+  overflow: auto;
 }
 
 /*dishendslider*/

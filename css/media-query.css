@@ -123,6 +123,7 @@
   height: 420px;
   background-attachment: inherit;
   margin-top: 14%;
+  overflow: auto;
 }
 
 .hbtxt{
@@ -156,7 +157,7 @@
 }
 .acolumn {
   padding-left: 0px;
-overflow: hidden;
+overflow: auto;
 	width: 100%;
 }
 /*bar slider end*/
