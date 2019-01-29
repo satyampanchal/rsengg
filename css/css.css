@@ -464,13 +464,18 @@ input[type=submit]:hover {
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
 }
+.hpcolumn {
+	margin-top: 2%;
+  margin-left: 5%;
+	width: 40%;
+	font-family: sans-serif;
 
+}
 
 .hpor{
   background: #ffffff;
       color: #000;
       text-transform: uppercase;
-      margin: 60px 0px 0px 60px;
       padding: 4px;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
@@ -483,8 +488,9 @@ input[type=submit]:hover {
 }
 
 #htxt{
-  font-size: 125%;
-  padding:20px 0px 0px 58px;
+  font-size: 140%;
+  padding-top: 20px;
+
   font-family: IBM Plex Sans bold, sans-serif !important;
 }
 
@@ -492,12 +498,12 @@ input[type=submit]:hover {
 
     border: 2px solid #639fff;
     color: white;
+    margin-top: 20px;
     padding: 10px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-		margin: 2% 0px 0px 58px;
 		-webkit-transition-duration: 0.4s; /* Safari */
 		transition-duration: 0.4s;
     font-family: IBM Plex Sans bold, sans-serif !important;

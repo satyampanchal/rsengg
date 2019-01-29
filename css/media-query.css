@@ -165,22 +165,32 @@
   background-size:  100% 100%;
   background-attachment: inherit;
 }
+.hpcolumn {
+	margin-top: 0%;
+  margin-left: 0%;
+	width: 100%;
+	font-family: sans-serif;
+
+}
 
 .hpor{
-      font-size: 20px !important;
-      font-weight: 600;
-      margin: 38px 0px 0px 0px;
+      font-size: 25px !important;
+      margin: 15px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+
 }
 
 #htxt{
-  font-size: 14px;
-  padding: 14px 0px 0px 0px;
+  font-size: 17px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+
 }
 
 .buttonh {
     padding: 10px 50px;
     font-size: 16px;
-		margin: 20px 0px 0px 80px;
+
 
 }
 /*product container end*/
