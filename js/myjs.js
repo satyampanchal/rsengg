@@ -67,6 +67,10 @@ var velocity = 0.5;
 
 function update(){
     var pos = $(window).scrollTop();
+    if(screen.width < 800) {
+      return;
+    }
+    else {
     $('.homeb, .porimg, .aboutusimg, .hporimg').each(function() {
         var $element = $(this);
         // subtract some from the height b/c of the padding
@@ -79,7 +83,7 @@ function update(){
         var height = $element.height()-(-250);
         $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
     });
-
+}
 };
 $(window).bind('scroll', update);
 

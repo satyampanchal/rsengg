@@ -91,14 +91,7 @@ a.svg {
 }
 
 /*text */
-.overview {
-  position: relative;
-  background-color: #fff;
-  z-index: 999;
-  overflow:auto;
-  padding-bottom: 50px;
 
-}
 
 #rs{
   text-align: center;
@@ -128,21 +121,17 @@ hr {
 }
 
 #aboutushome{
-	float:left;
-
 	 font-size: 15px;
 	 color: rgb(116, 116, 116);
 	margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 .bar_s{
   width: 0px;
-	float: right;
-	margin: 10px 0px 0px 0px;
-  padding: 0px 480px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .skill_bar {
-  width:480px;
+  width:100%;
   height:55px;
   background-color: rgb(192,192,192,0.2);
   margin-bottom: 20px;
@@ -152,6 +141,13 @@ hr {
   width:0%;
   height:100%;
   background-color: rgb(0,191,255,2.5);
+}
+
+.acolumn {
+	margin-top: 0%;
+	margin-bottom: 0%;
+  padding-left: 5%;
+	width: 50%;
 }
 
 /*dishendslider*/
@@ -258,7 +254,7 @@ color: black;
       mix-blend-mode: lighten;
       line-height: 1;
       display: inline-block;
-      font-size: 26px !important;
+      font-size: 26px ;
       font-family: IBM Plex Sans bold, sans-serif;
       font-weight: 700;
 
@@ -269,14 +265,14 @@ color: black;
   background: #ffffff;
       color: #000;
       text-transform: uppercase;
-      top:50%;
+      top:40%;
       left: 37%;
       padding: 18px;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
       line-height: 1;
       position: relative;
-      display: inline;
+      display: inline-block;
       font-size: 56px !important;
       font-family: IBM Plex Sans bold, sans-serif;
       font-weight: 700;
@@ -463,24 +459,18 @@ input[type=submit]:hover {
   background-size:  100% 125%;
   background-attachment: fixed;
   color: #fff;
+  margin-top: 5%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
 }
 
-.hpcolumn {
-	margin-top: 5%;
-	margin-bottom: 5%;
-  margin-left: 5%;
-	width: 50%;
-	font-family: sans-serif;
-
-}
 
 .hpor{
   background: #ffffff;
       color: #000;
       text-transform: uppercase;
+      margin: 60px 0px 0px 60px;
       padding: 4px;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
@@ -488,22 +478,29 @@ input[type=submit]:hover {
       position: relative;
       display: inline-block;
       font-size: 40px !important;
-      font-family: IBM Plex Sans bold, sans-serif;
+      font-family: IBM Plex Sans bold, sans-serif !important;
       font-weight: 700;
+}
+
+#htxt{
+  font-size: 125%;
+  padding:20px 0px 0px 58px;
+  font-family: IBM Plex Sans bold, sans-serif !important;
 }
 
 .buttonh {
 
     border: 2px solid #639fff;
     color: white;
-    padding: 10px 54px;
+    padding: 10px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-		margin-top: 3%;
+		margin: 2% 0px 0px 58px;
 		-webkit-transition-duration: 0.4s; /* Safari */
 		transition-duration: 0.4s;
+    font-family: IBM Plex Sans bold, sans-serif !important;
 
 }
 
@@ -526,206 +523,4 @@ input[type=submit]:hover {
       font-size: 35px !important;
       font-family: IBM Plex Sans bold, sans-serif;
       font-weight: 700;
-}
-
-/*mobile view*/
-
-@media all and (max-width: 800px) {
-
-
-	.fcolumn{
-		width: 50%;
-    float: left;
-	}
-
-	#contact-footer{
-	  margin: 0px 0px 0px 0px;
-	  padding: 0px 0px 0px 0px;
-	  color: black;
-
-	}
-	#navigate-footer{
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	color: black;
-
-	}
-
-	#navigate-footer li{
-		padding-top: 5px;
-	}
-
-.pcolumn {
-	        width: 100%;
-	    }
-.pcolumn h3{
-	padding-right: 20%;
-	text-align: left;
-}
-
-.pcolumn li {
-list-style: none;
-}
-
-.pcolumn li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #639fff; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1em; /* Also needed for space (tweak if needed) */
-	margin-top: 1em;
-}
-
-
-.bo{
-  margin-top: 60px;
-}
-
-#logo{
-  float: left;
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px 30px;
-}
-
-.header-r{
-float: none;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
-.header-r a:not(:first-child) {
-  display: none;
-}
-
-.header-r a.icon {
-  float: right;
-  display: block;
-}
-
-.header-r.responsive {
-  position: relative;
-}
-
-.header-r.responsive a.icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.header-r.responsive a {
-  float: none;
-  display: block;
-  text-align: center;
-}
-
-#aboutushome{
-	 font-size: 15px;
-	 color: rgb(116, 116, 116);
-	margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
-.bar_s{
-  width: 100%;
-	margin: 40px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
-.skill_bar {
-  width:380px;
-  height:55px;
-  background: rgb(192,192,192,0.2);
-  margin-bottom: 20px;
-}
-
-.skill_bar h3 {
-padding: 5px 0px 0px 7px !important;
-font-size: 130% !important;
-}
-.skill_bar_progress {
-  width:0%;
-  height:100%;
-  background: rgb(0,191,255,0.5);
-}
-
-.ab{
-  display: none;
-}
-
-.dishp{
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
-.dish-box{
-  margin: 30px 0px 0px 0px;
-  padding: 0px 0px 480px 0px;
-  animation-name: fadeInLeft;
-}
-
-.im{
-margin-top: 10px;
-margin-right: 10px;
-padding: 0px 0px 0px 0px;
-}
-
-
-.hporimg{
-  background-size:  100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-}
-
-.hpcolumn {
-	margin-top: 5%;
-	margin-bottom: 5%;
-  margin-left: 5%;
-	width: 90%;
-	font-family: sans-serif;
-  font-size: 70%;
-}
-
-.buttonh {
-
-    border: 2px solid #639fff;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-		margin-top: 3%;
-		-webkit-transition-duration: 0.4s; /* Safari */
-		transition-duration: 0.4s;
-
-}
-
-.ccolumn {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	float: left;
-	width: 100%;
-	font-family: sans-serif;
-}
-.cus img{
-  width: 100%;
-  display:block;
-  margin-top: -1.874%;
-  margin-bottom: -1.875%;
-}
-
-.dslider {
-  animation: none !important;
-  margin-top: 24%;
-}
-
-.cslider{
-  animation: none !important;
-  margin-top: 24%;
-  margin-bottom: 15%;
-
-}
-
 }
