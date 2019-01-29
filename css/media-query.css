@@ -209,12 +209,15 @@ overflow: hidden;
   animation: none !important;
   overflow: hidden;
 }
+
+.ctag{
+      left: 24%;
+      font-size: 30px !important;
+      font-weight: 600;
+}
 /*sliders end*/
 /*home page end*/
 }
-
-
-
 
 
 
