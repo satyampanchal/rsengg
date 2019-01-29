@@ -218,4 +218,22 @@ overflow: auto;
 }
 /*sliders end*/
 /*home page end*/
+/*about us page*/
+.ab{
+  display: none !important;
+  animation: none !important;
+}
+
+.aboutusimg{
+  height: 420px;
+  background-attachment: inherit;
+}
+
+.ustxt{
+  top:40%;
+  left: 21%;
+  font-size: 40px !important;
+  font-weight: 700;
+}
+/*about us page end*/
 }
