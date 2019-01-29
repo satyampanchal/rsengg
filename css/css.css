@@ -127,7 +127,6 @@ hr {
   padding: 20px 0px 0px 0px;
 }
 .bar_s{
-  width: 0px;
   padding: 0px 0px 0px 0px;
 }
 .skill_bar {
@@ -144,8 +143,6 @@ hr {
 }
 
 .acolumn {
-	margin-top: 0%;
-	margin-bottom: 0%;
   padding-left: 5%;
 	width: 50%;
 }
