@@ -166,7 +166,7 @@ overflow: hidden;
   /* Scale the background image to be as large as possible */
   background-size:  100% 100%;
   background-attachment: inherit;
-  overflow: hidden;
+  overflow: auto;
 }
 .hpcolumn {
 	margin-top: 0%;
@@ -201,13 +201,13 @@ overflow: hidden;
 .dslider{
   margin-top: 24%;
   animation: none !important;
-  overflow: hidden;
+  overflow: auto;
 }
 .cslider{
   margin-top: 24%;
   margin-bottom: 15%;
   animation: none !important;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .ctag{
