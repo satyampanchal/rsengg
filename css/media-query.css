@@ -236,4 +236,18 @@ overflow: auto;
   font-weight: 700;
 }
 /*about us page end*/
+/*product page*/
+.pcolumn {
+	width: 100%;
+}
+#ptxt{
+  padding: 0px 0px 0px 0px !important;
+}
+
+.button {
+		margin-left: 30%;
+		margin-top: 3%;
+
+}
+/*product page end */
 }
