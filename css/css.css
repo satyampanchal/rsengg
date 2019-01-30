@@ -38,7 +38,7 @@ display: block;
 }
 
 .x-navbar a:hover {
-  color: rgba(0,191,255);
+  color: rgba(0,191,255,1);
   transition: color 0.5s ease;
 }
 .header-r{
@@ -101,7 +101,7 @@ a.svg {
  margin-top:40px;
   font-size: 30px;
   line-height: 39.834px;
-  color: rgba(0,191,255);
+  color: rgba(0,191,255,1);
 }
 #p1{
   margin-top: 10px;
@@ -122,7 +122,7 @@ hr {
 
 #aboutushome{
 	 font-size: 15px;
-	 color: rgba(116, 116, 116);
+	 color: rgba(116, 116, 116, 1);
 	margin: 0px 0px 0px 0px;
   padding: 20px 0px 0px 0px;
 }
@@ -177,7 +177,7 @@ hr {
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
 }
 .dishendslider h4{
-  color: rgba(116, 116, 116);
+  color: rgba(116, 116, 116, 1);
 }
 
 .cslider{
@@ -278,10 +278,10 @@ color: black;
 }
 
 .textus{
- color: rgba(232, 232, 232);
+ color: rgba(232, 232, 232,1);
  font-family: sans-serif;
  font-size: 15px;
- color: rgba(116, 116, 116);
+ color: rgba(116, 116, 116,1);
  margin-top: 30px;
 }
 
