@@ -6,7 +6,7 @@ html {
 
 .x-navbar{
  border-bottom: 0px;
-  background-color: rgb(255,255,255,0.98);
+  background-color: rgba(255,255,255,0.98);
   overflow: hidden;
   position: fixed;
   z-index: 1000;

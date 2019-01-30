@@ -146,7 +146,7 @@
 .skill_bar {
   width:90%;
   height:55px;
-  background-color: rgb(192,192,192,0.2);
+  background-color: rgba(192,192,192,0.2);
   margin-bottom: 20px;
   margin-left: 20px;
 
