@@ -165,7 +165,7 @@ overflow: hidden;
 .hporimg{
   height: 350px;
   /* Scale the background image to be as large as possible */
-  background-size:  100% 100%;
+  background-size:  200% 100%;
   background-position: bottom;
   background-attachment: inherit;
   overflow: hidden;
