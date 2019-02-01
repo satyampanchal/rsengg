@@ -29,7 +29,7 @@ function doSlideshow()
 }
 function slideshowFadeIn()
 {
-  $(".homeb").css("background-image", "url("+images[nextimage++]+")").fadeIn(500,function(){setTimeout(doSlideshow,5000);});
+  $(".slideshow").css("background-image", "url("+images[nextimage++]+")").fadeIn(500,function(){setTimeout(doSlideshow,5000);});
     if(nextimage>=images.length)
         nextimage=0;
 }
