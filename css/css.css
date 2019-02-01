@@ -171,7 +171,7 @@ hr {
     }
 
 .dslider{
-  margin-top: 8%;
+  margin-top: 18%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
@@ -182,8 +182,8 @@ hr {
 
 .cslider{
   background-image: linear-gradient(161deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin-top: 18%;
+  margin-bottom: 18%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
@@ -457,7 +457,7 @@ input[type=submit]:hover {
   background-size:  100% 125%;
   background-attachment: fixed;
   color: #fff;
-  margin-top: 5%;
+  margin-top: 14%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
