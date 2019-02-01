@@ -80,7 +80,7 @@ function update(){
     $('.hporimg').each(function() {
         var $element = $(this);
         // subtract some from the height b/c of the padding
-        var height = $element.height()-(-250);
+        var height = $element.height()-(-450);
         $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
     });
 }
