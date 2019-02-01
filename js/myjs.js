@@ -11,7 +11,7 @@ function myFunction() {
         x.className = "header-r";
     }
 }
-var images=new Array('../image/home/1.jpg','http://placehold.it/250x150/123456','http://placehold.it/250x150/dbca98');
+var images=new Array('../image/home/1.jpg','../img/portfolio/2.jpg','../img/portfolio/3.jpg','../img/portfolio/4.jpg','../img/portfolio/5.jpg','../img/portfolio/6.jpg');
 var nextimage=0;
 
 doSlideshow();
