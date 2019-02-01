@@ -11,6 +11,28 @@ function myFunction() {
         x.className = "header-r";
     }
 }
+var images=new Array('../image/home/1.jpg','http://placehold.it/250x150/123456','http://placehold.it/250x150/dbca98');
+var nextimage=0;
+
+doSlideshow();
+
+function doSlideshow()
+{
+    if($('.slideshowimage').length!=0)
+    {
+        $('.slideshowimage').fadeOut(500,function(){slideshowFadeIn();$(this).remove()});
+    }
+    else
+    {
+        slideshowFadeIn();
+    }
+}
+function slideshowFadeIn()
+{
+  $(".homeb").css("background-image", "url("+images[nextimage++]+")").fadeIn(500,function(){setTimeout(doSlideshow,5000);});
+    if(nextimage>=images.length)
+        nextimage=0;
+}
 
 
 
