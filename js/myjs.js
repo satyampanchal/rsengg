@@ -11,6 +11,7 @@ function myFunction() {
         x.className = "header-r";
     }
 }
+/*
 var images=new Array('../image/home/1.jpg','../img/portfolio/3.JPG','../img/portfolio/5.JPG','../img/portfolio/6.JPG');
 var nextimage=0;
 
@@ -33,7 +34,7 @@ function slideshowFadeIn()
     if(nextimage>=images.length)
         nextimage=0;
 }
-
+*/
 
 
 /*End Navigation Bar*/
