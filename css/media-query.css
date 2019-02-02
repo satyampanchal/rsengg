@@ -99,15 +99,17 @@
   }
   /*navigation bar End*/
   /*bottom nav bar*/
+  .fcolumn {
+  	width: 100%;
+  }
   #contact-footer{
-	  margin: 0px 0px 0px 0px;
-	  padding: 0px 10px 0px 0px;
+    margin: 50px 0px 0px 40px;
+	  padding: 0px 0px 0px 0px;
 	  color: black;
-
 	}
 	#navigate-footer{
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 40px;
+	margin: 50px 0px 0px 40px;
+	padding: 0px 0px 0px 0px;
 	color: black;
 
 	}
@@ -115,6 +117,13 @@
 	#navigate-footer li{
 		padding-top: 10px;
 	}
+
+  .barcode{
+    margin: 40px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    width: 50%;
+
+  }
   /*bottom nav bar end*/
 
 /*home page*/
