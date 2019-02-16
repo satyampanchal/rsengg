@@ -229,7 +229,7 @@
     .ustxt{
       top: 0px;
       margin-top: 160px;
-      margin-left: calc(50% - 100px); !important;
+      margin-left: calc(50% - 100px)!important;
       left: 0px;
       font-size: 40px !important;
       font-weight: 700px !important;
@@ -441,7 +441,7 @@ overflow: hidden;
   top:0px;
   left: 0px;
   margin-top: 170px;
-  margin-left: calc(45% - 100px); !important;
+  margin-left: calc(45% - 100px)!important;
   font-size: 40px !important;
   font-weight: 700px;
 }
