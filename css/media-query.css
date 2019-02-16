@@ -48,8 +48,207 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  /*home page*/
+    /*navigation bar*/
+    #logo{
+      float: left;
+      padding: 0px 0px 0px 0px;
+      margin: 5px 0px 0px 30px;
+    }
 
-  //CSS
+    .header-r{
+    float: none;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+    }
+
+    .header-r a:not(:first-child) {
+      display: none;
+    }
+
+    .header-r a.icon {
+      float: right;
+      display: block;
+    }
+
+    .header-r.responsive {
+      position: relative;
+    }
+
+    .header-r.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .header-r.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    /*navigation bar End*/
+    /*bottom nav bar*/
+    .fcolumn {
+      width: 100%;
+    }
+    #contact-footer{
+      margin: 50px 0px 0px 40px;
+      padding: 0px 0px 0px 0px;
+      color: black;
+    }
+    #navigate-footer{
+    margin: 50px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    color: black;
+
+    }
+
+    #navigate-footer li{
+      padding-top: 10px;
+    }
+
+    .barcode{
+      margin: 40px 0px 0px 40px;
+      padding: 0px 0px 0px 0px;
+      width: 200px;
+
+    }
+    /*bottom nav bar end*/
+    /*home page*/
+    /*background image*/
+    .homeb{
+      height: 420px;
+      background-attachment: inherit;
+      margin-top: 59px;
+      overflow: hidden;
+    }
+
+    .hbtxt{
+      font-weight: 600px;
+      font-size: 17px ;
+      padding: 10px;
+      margin-top: 150px;
+      margin-left: 15px;
+    }
+/*background image end*/
+    /*bar slider*/
+    #aboutushome{
+    	margin: 0px 0px 0px 0px;
+      padding: 20px 0px 0px 20px;
+    }
+    .bar_s{
+      width: 90% !important;
+      padding: 40px 0px 0px 0px !important;
+      margin-left: 21px;
+    }
+    .skill_bar {
+      width: 520px;
+      height:55px;
+      background-color: rgba(192,192,192,0.2);
+      margin-bottom: 20px;
+    }
+    .bartxt{
+      font-size: 18px !important;
+      padding: 5px 0px 0px 0px !important;
+    }
+    .acolumn {
+      padding-left: 0px;
+    overflow: hidden;
+    	width: 100%;
+    }
+    /*bar slider end*/
+    /*product container*/
+    .hporimg{
+      height: 350px;
+      /* Scale the background image to be as large as possible */
+      background-size:  100% 100%;
+      background-position: bottom;
+      background-attachment: inherit;
+      overflow: hidden;
+    }
+    .hpcolumn {
+    	margin-top: 0%;
+      margin-left: 0%;
+    	width: 100%;
+    	font-family: sans-serif;
+
+    }
+
+    .hpor{
+          font-size: 30px !important;
+          margin: 15px 0px 0px 0px;
+          padding: 0px 0px 0px 0px;
+
+    }
+
+    #htxt{
+      font-size: 17px;
+      margin: 28px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+
+    }
+
+    .buttonh {
+        padding: 8px 20px;
+        font-size: 17px;
+
+
+    }
+    /*product container end*/
+    /*sliders*/
+    .dslider{
+      margin-top: 150px;
+      animation: none !important;
+      overflow: hidden;
+    }
+    .cslider{
+      margin-top: 150px;
+      margin-bottom: 150px;
+      animation: none !important;
+      overflow: hidden;
+    }
+
+    .ctag{
+          margin-left: 35%;
+          font-size: 30px !important;
+          font-weight: 600px;
+    }
+    /*sliders end*/
+    /*home page end*/
+    /*about us page*/
+    .ab{
+      display: none !important;
+      animation: none !important;
+    }
+
+    .aboutusimg{
+      height: 420px;
+      background-attachment: inherit;
+    }
+
+    .ustxt{
+      top: 0px;
+      margin-top: 160px;
+      margin-left: calc(50% - 100px); !important;
+      left: 0px;
+      font-size: 40px !important;
+      font-weight: 700px !important;
+    }
+    /*about us page end*/
+    /*product page baki*/
+    .pcolumn {
+    	width: 100%;
+    }
+    #ptxt{
+      padding: 0px 0px 0px 0px !important;
+    }
+
+    .button {
+    		margin-left: 30%;
+    		margin-top: 3%;
+
+    }
+    /*product page end */
 
 }
 
@@ -121,7 +320,7 @@
   .barcode{
     margin: 40px 0px 0px 40px;
     padding: 0px 0px 0px 0px;
-    width: 50%;
+    width: 200px;
 
   }
   /*bottom nav bar end*/
@@ -131,34 +330,33 @@
 .homeb{
   height: 420px;
   background-attachment: inherit;
-  margin-top: 14%;
+  margin-top: 57px;
   overflow: hidden;
 }
 
 .hbtxt{
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 17px ;
   padding: 10px;
-  margin-top: 40%;
-  margin-left: 3%;
+  margin-top: 150px;
+  margin-left: 15px;
 }
 /*background image end*/
 /*bar slider*/
 #aboutushome{
-  width:100%;
 	margin: 0px 0px 0px 0px;
   padding: 20px 0px 0px 20px;
 }
 .bar_s{
+  width: 90% !important;
   padding: 40px 0px 0px 0px;
+  margin-left: 21px;
 }
 .skill_bar {
-  width:90%;
+  width: 520px;
   height:55px;
   background-color: rgba(192,192,192,0.2);
   margin-bottom: 20px;
-  margin-left: 20px;
-
 }
 .bartxt{
   font-size: 18px !important;
@@ -174,7 +372,7 @@ overflow: hidden;
 .hporimg{
   height: 350px;
   /* Scale the background image to be as large as possible */
-  background-size:  200% 100%;
+  background-size:  100% 100%;
   background-position: bottom;
   background-attachment: inherit;
   overflow: hidden;
@@ -210,21 +408,21 @@ overflow: hidden;
 /*product container end*/
 /*sliders*/
 .dslider{
-  margin-top: 24%;
+  margin-top: 150px;
   animation: none !important;
   overflow: hidden;
 }
 .cslider{
-  margin-top: 24%;
-  margin-bottom: 15%;
+  margin-top: 150px;
+  margin-bottom: 150px;
   animation: none !important;
   overflow: hidden;
 }
 
 .ctag{
-      left: 15%;
+      margin-left: 20%;
       font-size: 30px !important;
-      font-weight: 600;
+      font-weight: 600px;
 }
 /*sliders end*/
 /*home page end*/
@@ -240,10 +438,12 @@ overflow: hidden;
 }
 
 .ustxt{
-  top:40%;
-  left: 21%;
+  top:0px;
+  left: 0px;
+  margin-top: 170px;
+  margin-left: calc(45% - 100px); !important;
   font-size: 40px !important;
-  font-weight: 700;
+  font-weight: 700px;
 }
 /*about us page end*/
 /*product page*/

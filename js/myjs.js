@@ -44,7 +44,7 @@ jQuery(function() {
         var scroll = jQuery(window).scrollTop();
 
         if (scroll >= 100) {
-             $('.skill_one').animate({width:'100%'}, 1000);
+             $('.skill_one').animate({width:'520px'}, 1000);
         }
     });
 });
