@@ -175,17 +175,3 @@ $('.clientslider').slick({
     // instead of a settings object
   ]
 });
-
-    jQuery(window).scroll(function() {
-        var scroll = jQuery(window).scrollTop();
-         if (scroll >= 870) {
-        $('.dslider').addClass("animated fadeInLeft");
-        }
-      });
-
-      jQuery(window).scroll(function() {
-          var scroll = jQuery(window).scrollTop();
-           if (scroll >= 870) {
-          $('.cslider').addClass("animated fadeInRight");
-          }
-        });
