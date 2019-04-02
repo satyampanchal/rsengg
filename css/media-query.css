@@ -94,12 +94,16 @@
     #contact-footer{
       margin: 50px 0px 0px 40px;
       padding: 0px 0px 0px 0px;
-      color: black;
     }
+
+    #navigate-product{
+      margin: 50px 0px 0px 40px;
+      padding: 0px 0px 0px 0px;
+    }
+    
     #navigate-footer{
     margin: 50px 0px 0px 40px;
     padding: 0px 0px 0px 0px;
-    color: black;
 
     }
 
@@ -107,12 +111,6 @@
       padding-top: 10px;
     }
 
-    .barcode{
-      margin: 40px 0px 0px 40px;
-      padding: 0px 0px 0px 0px;
-      width: 200px;
-
-    }
     /*bottom nav bar end*/
     /*home page*/
     /*background image*/
@@ -304,25 +302,20 @@
   #contact-footer{
     margin: 50px 0px 0px 40px;
 	  padding: 0px 0px 0px 0px;
-	  color: black;
 	}
 	#navigate-footer{
 	margin: 50px 0px 0px 40px;
 	padding: 0px 0px 0px 0px;
-	color: black;
-
 	}
+  #navigate-product{
+    margin: 50px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+  }
 
 	#navigate-footer li{
 		padding-top: 10px;
 	}
 
-  .barcode{
-    margin: 40px 0px 0px 40px;
-    padding: 0px 0px 0px 0px;
-    width: 200px;
-
-  }
   /*bottom nav bar end*/
 
 /*home page*/
