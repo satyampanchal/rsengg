@@ -338,9 +338,8 @@
   font-weight: 600;
   font-size: 17px ;
   padding: 10px;
-  margin: 0px 0px 0px 0px;
-  position: absolute;
-  top: 230px;
+  position: relative;
+  top: 170px;
   left: 15px;
 }
 /*background image end*/
@@ -422,7 +421,10 @@
 }
 
 .ctag{
-      margin-left: 20%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      top: 12px;
+      left: 44px;
       font-size: 30px !important;
       font-weight: 600;
 }

@@ -98,13 +98,13 @@ a.svg {
 }
 
 #rsengg{
- margin-top:40px;
+ padding: 40px 0px 0px 0px;
   font-size: 30px;
   line-height: 39.834px;
   color: rgba(0,191,255,1);
 }
 #p1{
-  margin-top: 10px;
+  padding-top: 10px;
   font-size: 17px !important;
   color: #747474;
   /*
@@ -150,12 +150,12 @@ hr {
 
 /*dishendslider*/
 .slider {
-        width: 95%;
+        width: 90%;
         margin: 90px auto;
     }
     .slider1 {
             width: 90%;
-            margin: 30px auto;
+            margin: 40px auto;
         }
 
     .slick-slide {
@@ -171,7 +171,6 @@ hr {
     }
 
 .dslider{
-  margin-top: 18%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
@@ -179,50 +178,50 @@ hr {
 .dishendslider h4{
   color: rgba(116, 116, 116, 1);
 }
-
+.homepageslider1{
+  padding: 100px 0px;
+}
 .cslider{
   background-image: linear-gradient(161deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  margin-top: 18%;
-  margin-bottom: 18%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
   box-shadow: 0px 20px 29px 0px rgba(131,178,255,0.75);
 }
 
 /*footer*/
+
 .footer{
 	position: relative;
   background-color: #f2f2f2;
   overflow:hidden;
 }
+.footernav{
+padding-left: 180px;
+}
 
 .fcolumn {
-	margin-top: 5%;
-	margin-bottom: 3%;
   float: left;
 	font-family: sans-serif;
 	font-size: 100%;
+  width: 30%;
+  padding: 0px 55px;
 }
 
 #contact-footer{
-margin-left: 420px;
-
-  color: black;
+  color: #555;
 
 }
 .barcode{
-  margin-left: 84px;
-  width: 13%;
-
+  width: 320px;
 }
 #navigate-footer{
-margin-left: 20%;
 color: black;
 font-size: 17px;
 
 }
 
 #navigate-footer li{
+  color: #555;
 	padding-top: 3px;
 }
 
@@ -250,9 +249,10 @@ font-size: 17px;
       background: #ffffff;
       color: #000;
       text-transform: uppercase;
-      margin-top: 15%;
-      margin-left: 7%;
+      top: 205px;
+      left: 80px;
       padding: 10px;
+      position: relative;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
       line-height: 1;
@@ -452,10 +452,13 @@ input[type=submit]:hover {
 	color: white;
 
 }
-
+.homepageprod{
+  padding: 100px 0px;
+}
 .hporimg{
   background-image: url("../image/home/wel.jpg");
-  height: 400px;
+  height: 100%;
+  padding: 50px 0px;
   /* Center the background image */
   background-position: center;
   /* Set the background image to no repeat */
@@ -464,15 +467,13 @@ input[type=submit]:hover {
   background-size:  100% 125%;
   background-attachment: fixed;
   color: #fff;
-  margin-top: 14%;
   -webkit-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   -moz-box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
   box-shadow: 0px 20px 29px 0px rgba(254,169,1,0.75);
 }
 .hpcolumn {
-	margin-top: 2%;
-  margin-left: 5%;
-	width: 40%;
+  padding-left: 40px;
+	width: 50%;
 	font-family: sans-serif;
 
 }
@@ -494,9 +495,8 @@ input[type=submit]:hover {
 }
 
 #htxt{
-  font-size: 140%;
+  font-size: 23px;
   padding-top: 20px;
-
   font-family: IBM Plex Sans bold, sans-serif !important;
 }
 
@@ -525,8 +525,8 @@ input[type=submit]:hover {
   background: #ffffff;
       color: #000;
       text-transform: uppercase;
+      left: 40%;
       padding: 2px;
-      margin-left: 40%;
       box-shadow: 0px 0px 0px 0px #ffffff;
       mix-blend-mode: lighten;
       line-height: 1;
