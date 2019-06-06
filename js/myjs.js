@@ -90,7 +90,7 @@ var velocity = 0.5;
 
 function update(){
     var pos = $(window).scrollTop();
-    if(screen.width < 800) {
+    if(screen.width < 1025) {
       return;
     }
     else {
